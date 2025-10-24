@@ -13,11 +13,7 @@ A simple, educational library for training your own tokenizers from scratch. Cur
 
 ### From source (development)
 ```bash
-git clone https://github.com/erikajane/byte-bite.git
-cd byte-bite
-python3 -m venv byte-bite_env
-source byte-bite_env/bin/activate  # On Windows: byte-bite_env\Scripts\activate
-pip install -e .
+pip install git+https://github.com/erikajane/byte-bite.git
 ```
 
 ## Quick Start
@@ -108,10 +104,6 @@ This approach was popularized by GPT-2 and handles any Unicode text without unkn
 - [ ] Special token support (`<pad>`, `<unk>`, `<bos>`, `<eos>`)
 - [ ] Performance optimizations
 - [ ] Publish to PyPI
-
-## Contributing
-
-Contributions welcome! Please feel free to submit a Pull Request.
 
 ## License
 
