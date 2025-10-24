@@ -11,7 +11,7 @@ A simple, educational library for training your own tokenizers from scratch. Cur
 
 ## Installation
 
-### From source (development)
+### From GitHub
 ```bash
 pip install git+https://github.com/erikajane/byte-bite.git
 ```
